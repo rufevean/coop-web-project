@@ -1,3 +1,7 @@
+:root {
+  --background-color: #393e41;
+}
+
 .homepage {
   min-height: 500vh;
 }
@@ -8,4 +12,8 @@
 .aboutus-window,
 .footer-window {
   min-height: 100vh;
+}
+
+.main-window {
+  background: var(--background-color);
 }
