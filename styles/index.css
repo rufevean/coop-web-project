@@ -1,0 +1,11 @@
+.homepage {
+  min-height: 500vh;
+}
+
+.main-window,
+.excelissis-window,
+.features-window,
+.aboutus-window,
+.footer-window {
+  min-height: 100vh;
+}
