@@ -12,12 +12,14 @@ a {
   min-height: 500vh;
 }
 
-.main-window,
+.main-window {
+  min-height: 100vh;
+}
 .excelissis-window,
 .features-window,
 .aboutus-window,
 .footer-window {
-  min-height: 100vh;
+  min-height: 85vh;
 }
 
 .main-window {
@@ -61,7 +63,7 @@ a {
   display: flex;
   justify-content: flex-end;
   gap: 30vw;
-  margin-right: 8vw;
+  margin-right: 5vw;
   font-family: var(--main-font);
 }
 
@@ -76,4 +78,130 @@ a {
   align-items: center;
   flex-direction: column;
   gap: 10px;
+}
+
+.excelissis-window {
+  background: var(--primary-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5%;
+}
+.excelissis-window > section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.excelissis-window-left {
+  flex-direction: column;
+  gap: 3rem;
+  font-family: var(--main-font);
+  font-size: 1.4rem;
+  color: var(--background-color);
+  line-height: 125%;
+}
+
+.excelissis-window-right {
+  flex-direction: column;
+  align-items: flex-end;
+  font-family: var(--main-font);
+  text-align: right;
+  gap: 25vh;
+  color: var(--background-color);
+}
+.excelissis-window-right-content {
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  gap: 3px;
+  padding-left: 10vw;
+}
+
+.excelissis-window-right-content-title {
+  font-size: 8rem;
+}
+
+.excelissis-window-right-content-pronounciation {
+  font-size: 2.5rem;
+}
+
+.excelissis-window-right-content-description {
+  font-size: 1.1rem;
+  opacity: 70%;
+}
+
+.excelissis-window-right > img {
+  align-self: flex-end;
+}
+
+.aboutus-window {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  padding: 5%;
+  color: var(--background-color);
+  background: var(--primary-color);
+}
+
+.aboutus-window-left {
+  display: flex;
+  flex-direction: column;
+
+  justify-items: center;
+  align-items: center;
+}
+
+.aboutus-window-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  font-family: var(--main-font);
+  text-align: right;
+  gap: 25vh;
+  color: var(--background-color);
+}
+
+.aboutus-window-right-content {
+  display: flex;
+  flex-direction: column;
+  font-family: inherit;
+  gap: 3px;
+  padding-left: 10vw;
+}
+
+.aboutus-window-left > div {
+  display: flex;
+  gap: 100px;
+}
+
+.aboutus-window-left-nicole-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: var(--background-color);
+  font-family: var(--main-font);
+  justify-content: center;
+  align-items: center;
+  line-height: 125%;
+  font-size: 1.3rem;
+}
+
+.about-us-window-left-nicole-content-description {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-align: center;
+}
+
+.about-us-window-left-nicole-content-name,
+.about-us-window-left-nicole-content-github {
+  font-weight: 600;
+  color: inherit;
+}
+
+.aboutus-window-left {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
 }
