@@ -1,5 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+a {
+  text-decoration: none;
+}
 :root {
   --background-color: #393e41;
+  --primary-color: #d3d0cb;
+  --main-font: "Josefin Sans", sans-serif;
 }
 
 .homepage {
@@ -17,4 +23,57 @@
 .main-window {
   background: var(--background-color);
   background-image: url("../assests/dotgrid.png");
+}
+
+.main-window-nav {
+  display: flex;
+  gap: 3rem;
+  color: var(--primary-color);
+  padding-top: 8vh;
+  justify-content: flex-end;
+  padding-right: 8vw;
+}
+.main-window-nav > a {
+  color: var(--primary-color);
+  font-family: var(--main-font);
+  font-size: 1.2rem;
+}
+
+.main-window-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 80vh;
+  gap: 1rem;
+  color: var(--primary-color);
+  font-family: var(--main-font);
+  padding-left: 2rem;
+}
+.main-window-content-title {
+  font-size: 8rem;
+}
+.main-window-content-subtitle {
+  font-size: 2rem;
+}
+
+.main-window-footer {
+  color: var(--primary-color);
+  display: flex;
+  justify-content: flex-end;
+  gap: 30vw;
+  margin-right: 8vw;
+  font-family: var(--main-font);
+}
+
+.main-window-footer-contribute {
+  font-size: 2rem;
+  color: inherit;
+}
+
+.main-window-footer-scrolldown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
 }
