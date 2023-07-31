@@ -16,4 +16,5 @@
 
 .main-window {
   background: var(--background-color);
+  background-image: url("../assests/dotgrid.png");
 }
