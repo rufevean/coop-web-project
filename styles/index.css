@@ -134,6 +134,12 @@ a {
   align-self: flex-end;
 }
 
+.features-window {
+ 
+}
+
+
+
 .aboutus-window {
   display: grid;
   grid-template-columns: 5fr 4fr;
@@ -204,4 +210,12 @@ a {
   gap: 100px;
   align-items: center;
   justify-content: center;
+}
+
+.footer-window {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 10px;
 }
