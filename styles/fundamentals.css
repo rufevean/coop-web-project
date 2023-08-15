@@ -28,6 +28,7 @@ html {
 
 .fundamentals-main-window {
   background-image: url("../assests/dots.png");
+  background-color: var(--background-color);
 }
 
 .fundamentals-main-window-nav {
@@ -44,16 +45,95 @@ html {
   font-size: 1.2rem;
 }
 
-.fundamentals-main-window-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+.fundamentals-main-window-content  {
+  background: var(--primary-color);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 5%;
   min-height: 80vh;
   gap: 1rem;
-  color: var(--primary-color);
+  background-color: var(--primary-color);
+  color: var(--background-color);
   font-family: var(--main-font);
   padding-left: 2rem;
 }
-.fundamentals-main-window-content-title {
+
+.fundamentals-main-window-content > section {
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+
+}
+
+.fundamentals-main-window-content-left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: var(--main-font);
+  text-align: right;
+  gap: 25vh;
+  color: var(--background-color);
+}
+
+.fundamentals-main-window-content-left-title {
   font-size: 8rem;
+}
+
+.fundamentals-main-window-content-left-pronounciation {
+  font-size: 2.5rem;
+}
+
+.fundamentals-main-window-content-left-description{
+  font-size: 1.1rem;
+  opacity: 70%;
+}
+
+
+.fundamentals-main-window-content-left > img {
+  align-self: flex-end;
+}
+
+
+.fundamentals-main-window-content-right {
+  flex-direction: column;
+  gap: 3rem;
+  font-family: var(--main-font);
+  font-size: 1.4rem;
+  color: var(--background-color);
+  line-height: 125%;
+}
+
+
+
+.fundamentals-summary-window{
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  gap: 1rem;
+  color: var(--primary-color);
+  background-color: var(--background-color);
+  font-family: var(--main-font);
+  padding: 2rem 10rem 4rem 10rem;
+}
+
+.fundamentals-summary-window-para1{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.fundamentals-summary-window-para2{
+
+}
+
+.fundamentals-summary-window-para3{
+
+}
+
+.fundamentals-summary-window-para4{
+
 }
