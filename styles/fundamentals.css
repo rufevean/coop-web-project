@@ -1,139 +1,93 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+.fundamentals-home {
+  background: url("../assests/final_fundamentals.png");
+  max-height: 100vh;
+}
+
+.fundamentals-nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 100px;
+  padding-top: 3%;
+  padding-right: 5%;
+  color: #393e41;
+  font-family: Josefin Sans, Arial, Helvetica, sans-serif;
+}
+
+.fundamentals-nav > a {
+  color: #393e41;
+}
+
+.fundamentals-content {
+  display: grid;
+  gap: 100px;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  height: 100vh;
+  padding: 5%;
+}
+
+.fundamentals-content-left {
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+}
+
+.fundamentals-content-left-title {
+  font-family: Josefin Sans;
+  font-size: 8rem;
+  color: #393e41;
+}
+
+.fundamentals-content-left-pron {
+  font-family: Josefin Sans;
+  font-size: 2rem;
+  color: #393e41;
+}
+
+.fundamentals-content-left-desc {
+  font-family: Josefin Sans;
+  color: #393e41;
+  font-size: 1.2rem;
+  padding-top: 15px;
+}
+.fundamentals-content-right {
+  height: 60vh;
+  background: #d3d0cb;
+  display: flex;
+  flex-direction: column;
+  font-family: Josefin Sans;
+  color: #393e41;
+  align-self: flex-start;
+  margin-top: 5vh;
+  justify-content: center;
+  gap: 15px;
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  padding: 0px 30px;
+}
+.fundamentals-content-right-reference {
+  align-self: flex-end;
+  color: #393e41;
+}
+.fundamentals-content-right-reference > a {
+  color: inherit;
+}
 a {
   text-decoration: none;
 }
-:root {
-  --background-color: #393e41;
-  --primary-color: #d3d0cb;
-  --main-font: "Josefin Sans", sans-serif;
-}
-html {
-  box-sizing: border-box;
-}
-.fundamentals-page {
-  min-height: 500vh;
-  margin: 0;
-}
 
-.fundamentals-main-window {
+.fundamentals-desc {
   min-height: 100vh;
-}
-/*
-  .excelissis-window,
-  .features-window,
-  .aboutus-window,
-  .footer-window {
-    min-height: 85vh;
-  }*/
-
-.fundamentals-main-window {
-  background-image: url("../assests/dots.png");
-  background-color: var(--background-color);
-}
-
-.fundamentals-main-window-nav {
+  background-color: #393e41;
   display: flex;
-  gap: 3rem;
-  color: var(--primary-color);
-  padding-top: 8vh;
-  justify-content: flex-end;
-  padding-right: 8vw;
-}
-.fundamentals-main-window-nav > a {
-  color: var(--primary-color);
-  font-family: var(--main-font);
-  font-size: 1.2rem;
-}
-
-.fundamentals-main-window-content  {
-  background: var(--primary-color);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 5%;
-  min-height: 80vh;
-  gap: 1rem;
-  background-color: var(--primary-color);
-  color: var(--background-color);
-  font-family: var(--main-font);
-  padding-left: 2rem;
-}
-
-.fundamentals-main-window-content > section {
-  flex-direction: column;
-  align-items: flex-end;
   justify-content: center;
-
-}
-
-.fundamentals-main-window-content-left{
-  display: flex;
   align-items: center;
-  justify-content: center;
-
-  font-family: var(--main-font);
-  text-align: right;
-  gap: 25vh;
-  color: var(--background-color);
-}
-
-.fundamentals-main-window-content-left-title {
-  font-size: 8rem;
-}
-
-.fundamentals-main-window-content-left-pronounciation {
-  font-size: 2.5rem;
-}
-
-.fundamentals-main-window-content-left-description{
-  font-size: 1.1rem;
-  opacity: 70%;
-}
-
-
-.fundamentals-main-window-content-left > img {
-  align-self: flex-end;
-}
-
-
-.fundamentals-main-window-content-right {
+  color: #d3d0cb;
+  font-family: Josefin Sans;
   flex-direction: column;
-  gap: 3rem;
-  font-family: var(--main-font);
+  padding: 2vh 10vh;
+  gap: 20px;
+  text-align: center;
   font-size: 1.4rem;
-  color: var(--background-color);
-  line-height: 125%;
-}
-
-
-
-.fundamentals-summary-window{
-display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 80vh;
-  gap: 1rem;
-  color: var(--primary-color);
-  background-color: var(--background-color);
-  font-family: var(--main-font);
-  padding: 2rem 10rem 4rem 10rem;
-}
-
-.fundamentals-summary-window-para1{
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-}
-
-.fundamentals-summary-window-para2{
-
-}
-
-.fundamentals-summary-window-para3{
-
-}
-
-.fundamentals-summary-window-para4{
-
 }
