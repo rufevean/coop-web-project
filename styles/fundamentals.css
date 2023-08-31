@@ -96,35 +96,117 @@ a {
 .programming-window-top {
   background: url("../assests/final_fundamentals.png");
   min-height: 100vh;
-
-
   background-repeat: no-repeat;
 } /*fix height-width*/
 
 
-.ellipseimg {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 20%;
-  padding-top: 300px;
+.container{
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
 }
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  right: 60%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 80%;
+  gap: 0.4rem;
+}
+
 
 .programming-window-top-title{
-font-size: 40px;
+font-size: 2.5rem;
 color: #d3d0cb;
 text-align: center;
-
+letter-spacing: 0.2rem;
 }
+
+.programming-window-top-subtitle{
+  font-size: 2.1rem;
+  color: #d3d0cb;
+  text-align: center;
+  opacity: 70%;
+  letter-spacing: 0.2rem;
+}
+
 
 .programming-window-bottom-summary {
 background-color: #393e41;
 min-height: 25vh;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d3d0cb;
+  font-family: Josefin Sans;
+  flex-direction: column;
+  padding: 2vh 10vh;
+  gap: 20px;
+  text-align: center;
+  font-size: 1.4rem;
 }
+
+
 
 .programming-window-bottom-resources {
 background-color: #d3d0cb;
 min-height: 75vh;
-
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding: 5% ;
+font-family: Josefin Sans;;
 }
+
+.programming-window-bottom-resources-one, .programming-window-bottom-resources-two, 
+.programming-window-bottom-resources-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 1.4rem;
+}
+
+h3{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;  
+    text-decoration: underline;
+}
+
+  .book-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .book-title {
+    font-size: 1.25rem;
+  }
+
+  .book-author{
+font-size: 0.75rem;
+font-style: italic;
+opacity: 60%;
+  }
+
+  .book-link {
+font-size: 1rem;
+text-decoration: underline;
+font-style: italic;
+  }
