@@ -91,3 +91,40 @@ a {
   text-align: center;
   font-size: 1.4rem;
 }
+
+
+.programming-window-top {
+  background: url("../assests/final_fundamentals.png");
+  min-height: 100vh;
+
+
+  background-repeat: no-repeat;
+} /*fix height-width*/
+
+
+.ellipseimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+  padding-top: 300px;
+}
+
+.programming-window-top-title{
+font-size: 40px;
+color: #d3d0cb;
+text-align: center;
+
+}
+
+.programming-window-bottom-summary {
+background-color: #393e41;
+min-height: 25vh;
+
+}
+
+.programming-window-bottom-resources {
+background-color: #d3d0cb;
+min-height: 75vh;
+
+}
