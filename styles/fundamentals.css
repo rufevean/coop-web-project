@@ -92,7 +92,7 @@ a {
   font-size: 1.4rem;
 }
 
-
+/*--------PROGRAMMING-----------*/
 .programming-window-top {
   background: url("../assests/final_fundamentals.png");
   min-height: 100vh;
@@ -104,7 +104,13 @@ a {
   position: relative;
   max-width: 400px;
   margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
 }
+
 
 .img {
   width: 100%;
@@ -158,8 +164,6 @@ min-height: 25vh;
   font-size: 1.4rem;
 }
 
-
-
 .programming-window-bottom-resources {
 background-color: #d3d0cb;
 min-height: 75vh;
@@ -210,3 +214,22 @@ font-size: 1rem;
 text-decoration: underline;
 font-style: italic;
   }
+  /*-------PROGRAMMING---------*/
+
+
+
+  /*------COMPUTER ARCHITECTURE-------*/
+
+    /*---------COMPUTER ARCHITECTURE-----------*/
+
+    /*--------ALGORITHMS-----*/
+
+    /*----------ALGORITHMS--------*/
+
+    /*--------MATHS----------*/
+
+ /*------MATHS-------*/
+
+ /*----------OS---------*/
+
+  /*---------OS--------*/
