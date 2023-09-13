@@ -104,11 +104,10 @@ a {
   position: relative;
   max-width: 400px;
   margin: 0 auto;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30vh;
 }
 
 
@@ -123,9 +122,8 @@ a {
   justify-content: center;
   align-items: center;
   position: absolute;
-  top: 55%;
+  top: 53%;
   left: 50%;
-  right: 60%;
   transform: translate(-50%, -50%);
   color: white;
   width: 80%;
@@ -219,17 +217,491 @@ font-style: italic;
 
 
   /*------COMPUTER ARCHITECTURE-------*/
-
+  .comp-arch-window-top {
+    background: url("../assests/final_fundamentals.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+  } /*fix height-width*/
+  
+  
+  .container{
+    position: relative;
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30vh;
+  }
+  
+  
+  .img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .text-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    width: 80%;
+    gap: 0.4rem;
+  }
+  
+  
+  .comp-arch-window-top-title{
+  font-size: 2.5rem;
+  color: #d3d0cb;
+  text-align: center;
+  letter-spacing: 0.2rem;
+  }
+  
+  .comp-arch-window-top-subtitle{
+    font-size: 2.1rem;
+    color: #d3d0cb;
+    text-align: center;
+    opacity: 70%;
+    letter-spacing: 0.2rem;
+  }
+  
+  
+  .comp-arch-window-bottom-summary {
+  background-color: #393e41;
+  min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d3d0cb;
+    font-family: Josefin Sans;
+    flex-direction: column;
+    padding: 2vh 10vh;
+    gap: 20px;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+  
+  .comp-arch-window-bottom-resources {
+  background-color: #d3d0cb;
+  min-height: 75vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 5% ;
+  font-family: Josefin Sans;;
+  }
+  
+  .comp-arch-window-bottom-resources-one, .comp-arch-window-bottom-resources-two, 
+  .comp-arch-window-bottom-resources-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    font-size: 1.4rem;
+  }
+  
+  h3{
+    display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 1.5rem;  
+      text-decoration: underline;
+  }
+  
+    .book-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.3rem;
+    }
+  
+    .book-title {
+      font-size: 1.25rem;
+    }
+  
+    .book-author{
+  font-size: 0.75rem;
+  font-style: italic;
+  opacity: 60%;
+    }
+  
+    .book-link {
+  font-size: 1rem;
+  text-decoration: underline;
+  font-style: italic;
+    }
     /*---------COMPUTER ARCHITECTURE-----------*/
 
-    /*--------ALGORITHMS-----*/
 
+    
+    /*--------ALGORITHMS-----*/
+    .dsa-window-top {
+      background: url("../assests/final_fundamentals.png");
+      min-height: 100vh;
+      background-repeat: no-repeat;
+    } /*fix height-width*/
+    
+    
+    .container{
+      position: relative;
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30vh;
+    }
+    
+    
+    .img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .text-overlay {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 53%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      width: 80%;
+      gap: 0.4rem;
+    }
+    
+    
+    .dsa-window-top-title{
+    font-size: 2.5rem;
+    color: #d3d0cb;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    }
+    
+    .dsa-window-top-subtitle{
+      font-size: 2.1rem;
+      color: #d3d0cb;
+      text-align: center;
+      opacity: 70%;
+      letter-spacing: 0.2rem;
+    }
+    
+    
+    .dsa-window-bottom-summary {
+    background-color: #393e41;
+    min-height: 25vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #d3d0cb;
+      font-family: Josefin Sans;
+      flex-direction: column;
+      padding: 2vh 10vh;
+      gap: 20px;
+      text-align: center;
+      font-size: 1.4rem;
+    }
+    
+    .dsa-window-bottom-resources {
+    background-color: #d3d0cb;
+    min-height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5% ;
+    font-family: Josefin Sans;;
+    }
+    
+    .dsa-window-bottom-resources-one, .dsa-window-bottom-resources-two, 
+    .dsa-window-bottom-resources-three {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 3rem;
+      font-size: 1.4rem;
+    }
+    
+    h3{
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;  
+        text-decoration: underline;
+    }
+    
+      .book-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3rem;
+      }
+    
+      .book-title {
+        font-size: 1.25rem;
+      }
+    
+      .book-author{
+    font-size: 0.75rem;
+    font-style: italic;
+    opacity: 60%;
+      }
+    
+      .book-link {
+    font-size: 1rem;
+    text-decoration: underline;
+    font-style: italic;
+      }
     /*----------ALGORITHMS--------*/
 
     /*--------MATHS----------*/
-
+    .math-window-top {
+      background: url("../assests/final_fundamentals.png");
+      min-height: 100vh;
+      background-repeat: no-repeat;
+    } /*fix height-width*/
+    
+    
+    .container{
+      position: relative;
+      max-width: 400px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 30vh;
+    }
+    
+    
+    .img {
+      width: 100%;
+      height: auto;
+    }
+    
+    .text-overlay {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      top: 53%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: white;
+      width: 80%;
+      gap: 0.4rem;
+    }
+    
+    
+    .math-window-top-title{
+    font-size: 2.5rem;
+    color: #d3d0cb;
+    text-align: center;
+    letter-spacing: 0.2rem;
+    }
+    
+    .math-window-top-subtitle{
+      font-size: 2.1rem;
+      color: #d3d0cb;
+      text-align: center;
+      opacity: 70%;
+      letter-spacing: 0.2rem;
+    }
+    
+    
+    .math-window-bottom-summary {
+    background-color: #393e41;
+    min-height: 25vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #d3d0cb;
+      font-family: Josefin Sans;
+      flex-direction: column;
+      padding: 2vh 10vh;
+      gap: 20px;
+      text-align: center;
+      font-size: 1.4rem;
+    }
+    
+    .math-window-bottom-resources {
+    background-color: #d3d0cb;
+    min-height: 75vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 5% ;
+    font-family: Josefin Sans;;
+    }
+    
+    .math-window-bottom-resources-one, .math-window-bottom-resources-two, 
+    .math-window-bottom-resources-three {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      gap: 3rem;
+      font-size: 1.4rem;
+    }
+    
+    h3{
+      display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;  
+        text-decoration: underline;
+    }
+    
+      .book-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.3rem;
+      }
+    
+      .book-title {
+        font-size: 1.25rem;
+      }
+    
+      .book-author{
+    font-size: 0.75rem;
+    font-style: italic;
+    opacity: 60%;
+      }
+    
+      .book-link {
+    font-size: 1rem;
+    text-decoration: underline;
+    font-style: italic;
+      }
  /*------MATHS-------*/
 
  /*----------OS---------*/
+ .os-window-top {
+  background: url("../assests/final_fundamentals.png");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+} /*fix height-width*/
 
+
+.container{
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30vh;
+}
+
+
+.img {
+  width: 100%;
+  height: auto;
+}
+
+.text-overlay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 53%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  width: 80%;
+  gap: 0.4rem;
+}
+
+
+.os-window-top-title{
+font-size: 2.5rem;
+color: #d3d0cb;
+text-align: center;
+letter-spacing: 0.2rem;
+}
+
+.os-window-top-subtitle{
+  font-size: 2.1rem;
+  color: #d3d0cb;
+  text-align: center;
+  opacity: 70%;
+  letter-spacing: 0.2rem;
+}
+
+
+.os-window-bottom-summary {
+background-color: #393e41;
+min-height: 25vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d3d0cb;
+  font-family: Josefin Sans;
+  flex-direction: column;
+  padding: 2vh 10vh;
+  gap: 20px;
+  text-align: center;
+  font-size: 1.4rem;
+}
+
+.os-window-bottom-resources {
+background-color: #d3d0cb;
+min-height: 75vh;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+padding: 5% ;
+font-family: Josefin Sans;;
+}
+
+.os-window-bottom-resources-one, .os-window-bottom-resources-two, 
+.os-window-bottom-resources-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3rem;
+  font-size: 1.4rem;
+}
+
+h3{
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;  
+    text-decoration: underline;
+}
+
+  .book-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+  }
+
+  .book-title {
+    font-size: 1.25rem;
+  }
+
+  .book-author{
+font-size: 0.75rem;
+font-style: italic;
+opacity: 60%;
+  }
+
+  .book-link {
+font-size: 1rem;
+text-decoration: underline;
+font-style: italic;
+  }
   /*---------OS--------*/
